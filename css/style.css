@@ -1,0 +1,52 @@
+/*! CUSTOM PROPERTIES */
+
+:root{
+    --main-bg: rgb(8,59,76);
+    --number-bg: rgb(19,137,178);
+    --fizz-bg: rgb(12,214,161);
+    --buzz-bg: rgb(255,209,102);
+    --fizzbuzz-bg: rgb(240,70,111);
+}
+
+/*! UTILS */
+
+.debug{
+    border: 1px dashed black;
+}
+
+/*! GENERICS */
+
+body{
+    background-color: var(--main-bg);
+}
+
+.col{
+    min-height: 50px;
+}
+
+/*! MAIN */
+
+main h1{
+    font-size: 72px;
+}
+
+.cs-box{
+    flex: 0 0 150px;
+    height: 150px;
+}
+
+.cs-box.number{
+    background-color: var(--number-bg);
+}
+
+.cs-box.fizz{
+    background-color: var(--fizz-bg);
+}
+
+.cs-box.buzz{
+    background-color: var(--buzz-bg);
+}
+
+.cs-box.fizzbuzz{
+    background-color: var(--fizzbuzz-bg);
+}
