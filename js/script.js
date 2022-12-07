@@ -24,6 +24,7 @@ console.log('JS OK');
 
 /*------------------------------------TODO-----------------------------------------------
 
+0. Pick target element
 1. Create loop from 1 to 100
 2. Verify if number is divisible by 3
     2.1 if true verify if it's divisible by 5
@@ -34,6 +35,10 @@ console.log('JS OK');
 4. If all the above is false print the number
 
 ----------------------------------------------------------------------------------------*/
+//0. Pick target element
+
+const targetElement = document.querySelector('.row');
+////console.log(targetElement);
 
 //1. Create loop from 1 to 100
 
@@ -47,10 +52,22 @@ for ( i = 1; i <= 100; i++){
 
         if(i % 5 === 0){
             //2.1.1 if true print FizzBuzz
+            targetElement.innerHTML += 
+            `<div class="col d-flex justify-content-center align-items-center py-3">
+                <div class="cs-box fizzbuzz">
+                    FizzBuzz
+                </div>
+            </div>`
             console.log('FizzBuzz');
         }
         else{
              //2.1.2 if false print Fizz
+             targetElement.innerHTML += 
+             `<div class="col d-flex justify-content-center align-items-center py-3">
+                 <div class="cs-box fizz">
+                     Fizz
+                 </div>
+             </div>`
              console.log('Fizz');
 
         }
@@ -58,10 +75,22 @@ for ( i = 1; i <= 100; i++){
     //3. Verify if number is divisible by 5
     else if (i % 5 === 0){
         //3.1 if true print Buzz
+        targetElement.innerHTML += 
+        `<div class="col d-flex justify-content-center align-items-center py-3">
+            <div class="cs-box buzz">
+                Buzz
+            </div>
+        </div>`
         console.log('Buzz');
     } 
     //4. If all the above is false print the number
     else{
+        targetElement.innerHTML += 
+        `<div class="col d-flex justify-content-center align-items-center py-3">
+            <div class="cs-box number">
+                ${i}
+            </div>
+        </div>`
         console.log(i);
     }
 

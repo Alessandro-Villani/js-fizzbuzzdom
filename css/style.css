@@ -33,6 +33,9 @@ main h1{
 .cs-box{
     flex: 0 0 150px;
     height: 150px;
+    line-height: 150px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .cs-box.number{
