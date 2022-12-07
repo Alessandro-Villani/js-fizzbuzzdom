@@ -38,5 +38,31 @@ console.log('JS OK');
 //1. Create loop from 1 to 100
 
 for ( i = 1; i <= 100; i++){
-    console.log(i);
+
+    //2. Verify if number is divisible by 3
+
+    if (i % 3 === 0){
+
+        //2.1 if true verify if it's divisible by 5
+
+        if(i % 5 === 0){
+            //2.1.1 if true print FizzBuzz
+            console.log('FizzBuzz');
+        }
+        else{
+             //2.1.2 if false print Fizz
+             console.log('Fizz');
+
+        }
+    } 
+    //3. Verify if number is divisible by 5
+    else if (i % 5 === 0){
+        //3.1 if true print Buzz
+        console.log('Buzz');
+    } 
+    //4. If all the above is false print the number
+    else{
+        console.log(i);
+    }
+
 }
