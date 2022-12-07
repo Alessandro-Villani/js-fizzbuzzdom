@@ -21,3 +21,16 @@ Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
 ---------------------------------------------------------------------------------------*/
 
 console.log('JS OK');
+
+/*------------------------------------TODO-----------------------------------------------
+
+1. Create loop from 1 to 100
+2. Verify if number is divisible by 3
+    2.1 if true verify if it's divisible by 5
+        2.1.1 if true print FizzBuzz
+        2.1.2 if false print Fizz
+3. Verify if number is divisible by 5
+    3.1 if true print Buzz
+4. If all the above is false print the number
+
+----------------------------------------------------------------------------------------*/
