@@ -20,7 +20,7 @@ Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
 
 ---------------------------------------------------------------------------------------*/
 
-console.log('JS OK');
+////console.log('JS OK');
 
 /*------------------------------------TODO-----------------------------------------------
 

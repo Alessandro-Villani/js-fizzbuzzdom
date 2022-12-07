@@ -8,20 +8,10 @@
     --fizzbuzz-bg: rgb(240,70,111);
 }
 
-/*! UTILS */
-
-.debug{
-    border: 1px dashed black;
-}
-
 /*! GENERICS */
 
 body{
     background-color: var(--main-bg);
-}
-
-.col{
-    min-height: 50px;
 }
 
 /*! MAIN */
@@ -31,7 +21,7 @@ main h1{
 }
 
 .cs-box{
-    flex: 0 0 150px;
+    width: 150px;
     height: 150px;
     line-height: 150px;
     font-size: 20px;
